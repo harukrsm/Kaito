@@ -18,7 +18,7 @@ Kaito 是一款使用 SwiftUI 与 PDFKit 构建的 Apple 平台 PDF 学习工作
 - **会话历史**：使用 SwiftData 在本地保存 AI 对话、消息、模型信息与更新时间。
 - **Markdown 展示**：AI 回复支持标题、列表、代码块及常用行内 Markdown。
 - **多语言界面**：支持简体中文、繁体中文、日语和英语。
-- **原生体验**：针对 macOS 与 iOS 分别适配窗口、工具栏、文件访问和输入交互。
+- **原生体验**：针对 macOS 与 iPadOS 分别适配窗口、工具栏、文件访问和输入交互。
 
 ## 技术栈
 
@@ -26,7 +26,7 @@ Kaito 是一款使用 SwiftUI 与 PDFKit 构建的 Apple 平台 PDF 学习工作
 - PDFKit
 - SwiftData
 - Observation
-- PencilKit（iOS 绘制交互）
+- PencilKit（iPadOS 绘制交互）
 - Ollama HTTP API
 - Xcode String Catalog
 
@@ -34,7 +34,7 @@ Kaito 是一款使用 SwiftUI 与 PDFKit 构建的 Apple 平台 PDF 学习工作
 
 ## 运行要求
 
-- macOS 或 iOS 设备/模拟器
+- macOS 或 iPadOS 设备/模拟器
 - 能够构建当前工程的 Xcode 版本
 - 如需使用 AI 功能：已安装并正在运行的 [Ollama](https://ollama.com/)，以及至少一个本地模型
 - 如需让 AI 识别 PDF 页面或图片：建议安装带有 `vision` 能力的视觉语言模型
