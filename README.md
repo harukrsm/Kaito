@@ -1,3 +1,5 @@
+<img src="KaitoIcon.png" alt="Kaito 应用图标" width="128" height="128">
+
 # Kaito
 
 Kaito 是一款使用 SwiftUI 与 PDFKit 构建的 Apple 平台 PDF 学习工作台，面向阅读、刷题、批注与复习场景。它将 PDF 阅读器、可保存的答题卡和本地 AI 助手整合在同一个界面中，并支持 macOS 与 iPadOS。
