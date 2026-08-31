@@ -1,0 +1,58 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode build output
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Dependency-manager build artifacts
+Pods/
+Carthage/Build/
+
+# Local environment and secret configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+Secrets.xcconfig
+Secrets-*.xcconfig
+Local.xcconfig
+Local-*.xcconfig
+secrets.json
+secrets.plist
+
+# Service credentials and signing material
+GoogleService-Info.plist
+*.p8
+*.p12
+*.pem
+*.key
+*.cer
+*.mobileprovision
+
+# Local tooling and editor state
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
